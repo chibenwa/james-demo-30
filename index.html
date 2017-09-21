@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>JAMES Team DEMO - Sprint #30</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				<img data-src="large.png" style="border: 0; background: 0;">
+				<h2>JAMES Team DEMO - Sprint #30</h2>
+				</section>
+
+				<section>
+				<h2>Overview</h2>
+
+				<ul>
+					<li class="fragment">Mail groups backend</li>
+				  	<li class="fragment">Download as EML</li>
+					<li class="fragment">Attachment search</li>
+					<li class="fragment">Attachment security (content-type + ownership)</li>
+				</ul>
+				</section>
+
+				<section>
+					<h3>Mail groups backend</h3>
+					<video controls data-src="download_eml.mp4"></video>
+				</section>
+				<section>
+					<h3>Download as EML</h3>
+					<video controls data-src="download_eml.mp4"></video>
+				</section>
+				<section>
+					<h3>Attachment search</h3>
+					<video controls data-src=""></video>
+				</section>
+
+				<section>
+					<h1>Thank You!<h1>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
